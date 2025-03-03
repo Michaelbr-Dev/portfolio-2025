@@ -1,0 +1,15 @@
+{
+  "app_description": "Personal portfolio, simple and clean, made with Nuxt and Tailwind CSS. Made with ❤\uFE0F by Michael Briquet",
+  "back_to_home": "Back to home",
+  "switch_french": "Translate to french",
+  "switch_english": "Switch to english",
+  "see_more": "See more",
+  "soon": "Coming soon",
+  "experiences": "Experiences",
+  "contact": "Let's work together",
+  "cv": "Download resume",
+  "meeting": "Schedule a meeting",
+  "available": "Available for new opportunities",
+  "unavailable": "Currently working on other projects",
+  "all_rights_reserved": "All rights reserved"
+}
