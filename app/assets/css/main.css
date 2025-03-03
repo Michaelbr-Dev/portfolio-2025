@@ -73,6 +73,10 @@ html, body, #__nuxt, #__layout {
   .text-white-shadow {
     text-shadow: 0 4px 10px rgba(0, 87, 255, .2), 0 -4px 10px rgba(255, 90, 0, .15), 0 0 30px rgba(255, 255, 255, .2);
   }
+  .nav-link-active {
+    @apply bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-white;
+    box-shadow: 0 0 20px rgba(0, 87, 255, 0.2);
+  }
 }
 
 .writing {
