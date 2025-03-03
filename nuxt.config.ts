@@ -3,7 +3,7 @@ import Tailwind from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
 
-  modules: ['@nuxt/eslint', '@nuxt/fonts', '@nuxtjs/i18n'],
+  modules: ['@nuxt/eslint', '@nuxt/fonts', '@nuxtjs/i18n', '@nuxt/icon'],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
 
@@ -18,5 +18,14 @@ export default defineNuxtConfig({
     config: {
       stylistic: true,
     },
+  },
+  i18n: {
+    locales: [
+      { code: 'en', name: 'English', language: 'en-US' },
+      { code: 'fr', name: 'French', language: 'fr-FR' },
+    ],
+    strategy: 'prefix',
+    defaultLocale: 'fr',
+    vueI18n: '~/i18n.config.ts',
   },
 })

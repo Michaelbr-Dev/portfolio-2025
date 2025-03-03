@@ -11,5 +11,8 @@
   "meeting": "Schedule a meeting",
   "available": "Available for new opportunities",
   "unavailable": "Currently working on other projects",
-  "all_rights_reserved": "All rights reserved"
+  "all_rights_reserved": "All rights reserved",
+  "home": {
+    "title": "Welcome to my portfolio"
+  }
 }
