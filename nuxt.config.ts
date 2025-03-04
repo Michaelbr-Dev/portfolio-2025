@@ -3,7 +3,13 @@ import Tailwind from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
 
-  modules: ['@nuxt/eslint', '@nuxt/fonts', '@nuxtjs/i18n', '@nuxt/icon'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/fonts',
+    '@nuxtjs/i18n',
+    '@nuxt/icon',
+    '@nuxt/image',
+  ],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
 
@@ -27,5 +33,18 @@ export default defineNuxtConfig({
     strategy: 'prefix',
     defaultLocale: 'fr',
     vueI18n: '~/i18n.config.ts',
+  },
+  icon: {
+    customCollections: [
+      {
+        prefix: 'custom',
+        dir: './app/assets/icons',
+      },
+    ],
+    clientBundle: {
+      scan: true,
+      includeCustomCollections: true,
+    },
+    provider: 'iconify',
   },
 })

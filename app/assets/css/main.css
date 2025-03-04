@@ -77,6 +77,22 @@ html, body, #__nuxt, #__layout {
     @apply bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-white;
     box-shadow: 0 0 20px rgba(0, 87, 255, 0.2);
   }
+  .bg-grid-white\/10 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  }
+
+  .bg-grid-16 {
+    background-size: 4rem 4rem;
+  }
+
+  .bg-grid-pattern {
+    background-size: 100px 100px;
+    background-image: 
+      linear-gradient(to right, rgb(255 255 255 / 0.1) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.1) 1px, transparent 1px);
+    background-position: top center;
+  }
 }
 
 .writing {

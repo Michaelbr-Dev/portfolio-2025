@@ -6,13 +6,14 @@
   "see_more": "See more",
   "soon": "Coming soon",
   "experiences": "Experiences",
-  "contact": "Let's work together",
+  "contact": "Let's get in touch",
   "cv": "Download resume",
   "meeting": "Schedule a meeting",
   "available": "Available for new opportunities",
   "unavailable": "Currently working on other projects",
   "all_rights_reserved": "All rights reserved",
   "home": {
-    "title": "Welcome to my portfolio"
+    "title": "Michael Briquet, Full-Stack Web Developer",
+    "subtitle": "I am passionate about modern technologies and good development practices. I specialize in creating high-performance and accessible web applications."
   }
 }
