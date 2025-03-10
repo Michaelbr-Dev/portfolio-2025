@@ -1,0 +1,250 @@
+[
+  {
+    "id": "0",
+    "image": "project_booki.webp",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-2/",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-2",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3"],
+      "backend": []
+    },
+    "tags": ["Frontend"],
+    "homepage": false,
+    "translations": {
+      "fr": {
+        "name": "Booki",
+        "description": "Transformer une maquette en site web avec HTML & CSS. L'objectif est d'intégrer la maquette d'un site de planification de vacance nommé \"Booki\"",
+        "content": "L'objectif est d'intégrer la maquette d'un site de planification de vacance nommé \"Booki\"<br />Le site est composé de 3 pages : la page d'accueil, la page de recherche et la page de réservation.<br />Le site est responsive et respecte la maquette fournie."
+      },
+      "en": {
+        "name": "Booki",
+        "description": "Transform a mockup into a website with HTML & CSS. The goal is to integrate the mockup of a vacation planning site named \"Booki\"",
+        "content": "The goal is to integrate the model of a vacation planning site named \"Booki\"<br />The site is composed of 3 pages: the home page, the search page and the reservation page.<br />The site is responsive and respects the model provided."
+      }
+    }
+  },
+  {
+    "id": "1",
+    "image": "project_ohmyfood.webp",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-3/",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-3",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "Sass"],
+      "backend": []
+    },
+    "tags": ["Frontend"],
+    "homepage": false,
+    "translations": {
+      "fr": {
+        "name": "ohmyfood",        
+        "description": "Dynamisez une page web avec des animations CSS",
+        "content": "L'objectif est de dynamiser une page web avec des animations CSS.<br />Le site est composé de 4 pages : la page d'accueil, la page de menu, la page de commande et la page de confirmation.<br />Le site est responsive et respecte la maquette fournie."
+      },
+      "en": {
+        "name": "ohmyfood",
+        "description": "Energize a web page with CSS animations",
+        "content": "The goal is to make a web page more dynamic with CSS animations.<br />The site is made up of 4 pages: the home page, the menu page, the order page and the confirmation page.<br />The site is responsive and complies with the provided model."
+      }
+    }
+  },
+  {
+    "id": "2",
+    "image": "project_panthere.webp",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-4/",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-4",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "JavaScript"],
+      "backend": []
+    },
+    "tags": ["SEO"],
+    "homepage": false,
+    "translations": {
+      "fr": {
+        "name": "La Panthère",
+        "description": "Optimiser un site web existant",
+        "content": "L'objectif est d'optimiser un site web existant.<br />Le site est composé de 10 pages.<br />Le site est responsive et respecte les normes d'accessibilité."
+      },
+      "en": {
+        "name": "La Panthère",
+        "description": "Optimizing an existing website",
+        "content": "The goal is to optimize an existing website.<br />The site is composed of 10 pages.<br />The site is responsive and complies with accessibility standards."
+      }
+    }
+  },
+  {
+    "id": "3",
+    "image": "project_kanap.webp",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-5/front/html/index.html",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-5",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "JavaScript"],
+      "backend": [ "Express.js", "JSDoc" ]
+    },
+    "tags": ["Frontend"],
+    "homepage": true,
+    "translations": {
+      "fr": {
+        "name": "Kanap",
+        "description": "Réalisation d'une plateforme E-commerce en Javascript",
+        "content": "L'objectif est de réaliser une plateforme E-commerce en Javascript.<br />Le site est composé de 4 pages : la page d'accueil, la page de produit, la page de panier et la page de confirmation.<br />Le site est responsive et respecte la maquette fournie."
+      },
+      "en": {
+        "name": "Kanap",
+        "description": "Creation of an E-commerce platform in Javascript",
+        "content": "The goal is to create an E-commerce platform in Javascript.<br />The site is composed of 4 pages: the home page, the product page, the shopping cart page and the confirmation page.<br />The site is responsive and respects the model provided."
+      }
+    }
+  },
+  {
+    "id": "4",
+    "image": "project_piiquante.webp",
+    "url": [
+      {
+        "url": "#",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-6",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "JavaScript" ],
+      "backend": [ "Node.js", "Express.js", "MongoDB", "JSDoc" ]
+    },
+    "tags": ["Backend"],
+    "homepage": true,
+    "translations": {
+      "fr": {
+        "name": "Piiquante",
+        "description": "Construction d'une API sécurisée pour une application d'avis gastronomiques",
+        "content": "<div class='space-y-6'><p>Développement d'une application web nommée \"Piiquante\" dans laquelle les utilisateurs pourront ajouter leurs sauces préférées et liker ou disliker les sauces proposées par les autres utilisateurs. Le but est de créer le backend de l'application, le frontend étant déjà codé et fourni.</p><p><span class=\"font-bold\">Objectifs du projet et compétences évaluées :</span></p><p><span class=\"font-bold\">Développement Backend en Javascript</span><ul class='list-disc pl-6 space-y-2'><li>Serveur Node.js</li><li>Framework Express</li><li>Base de données MongoDB</li><ul class='list-disc pl-6 space-y-2'><li>Hébergement sur MongoDB Atlas</li><li>Opérations relatives à la BDD réalisées avec mongoose</li></ul><li>API REST</li><li>Sécurité OWASP et RGPD</li></ul><span class=\"font-bold\">Mesures de sécurité mises en place</span><ul class='list-disc pl-6 space-y-2'><li>Hashage du mot de passe utilisateur avec bcrypt</li><li>Manipulation sécurisée de la base de données avec mongoose</li><li>Vérification de l'unicité de l'email dans la base de données avec mongoose-unique-validator</li><li>Vérification de la validité du format de l'email utilisateur avec email-validator</li><li>Vérification de la force du mot de passe avec password-validator</li><li>Utilisation de variables d'environnement pour les données sensibles avec dotenv</li><li>Authentification de l'utilisateur par token avec jsonwebtoken</li></ul></p></div>"
+      },
+      "en": {
+        "name": "Piiquante",
+        "description": "Building a Secure API for a Food Review App",
+        "content": "<div class='space-y-6'><p>Development of a web application called \"Piiquante\" where users can add their favorite sauces and like or dislike sauces submitted by other users. The goal is to create the backend of the application, with the frontend already coded and provided.</p><p><span class=\"font-bold\">Project objectives and evaluated skills:</span></p><p><span class=\"font-bold\">Backend Development in Javascript</span><ul class='list-disc pl-6 space-y-2'><li>Node.js Server</li><li>Express Framework</li><li>MongoDB Database</li><ul class='list-disc pl-6 space-y-2'><li>Hosting on MongoDB Atlas</li><li>Database operations performed with mongoose</li></ul><li>REST API</li><li>OWASP and GDPR Security</li></ul><span class=\"font-bold\">Security measures implemented</span><ul class='list-disc pl-6 space-y-2'><li>User password hashing with bcrypt</li><li>Secure database handling with mongoose</li><li>Email uniqueness verification in database with mongoose-unique-validator</li><li>User email format validation with email-validator</li><li>Password strength verification with password-validator</li><li>Use of environment variables for sensitive data with dotenv</li><li>User authentication with jsonwebtoken</li></ul></p></div>"
+      }
+    }
+  },
+  {
+    "id": "5",
+    "image": "project_groupomania.webp",
+    "url": [
+      {
+        "url": "#",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/P7-frontend",
+        "type": "code",
+        "name": {
+          "fr": "Le code front",
+          "en": "Frontend code"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-7-backend",
+        "type": "code",
+        "name": {
+          "fr": "Le code back",
+          "en": "Backend code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "JavaScript" ],
+      "backend": [ "Node.js", "Express.js", "MongoDB", "JSDoc" ]
+    },
+    "tags": ["Frontend", "Backend"],
+    "homepage": true,
+    "translations": {
+      "fr": {
+        "name": "Groupomania",
+        "description": "Réaliser un réseau social professionnel pour les employé(e)s de Groupomania.",
+        "content": "<div class='space-y-6'><p>Le but de cet outil est de faciliter les interactions entre collègues.<br>Le département RH de Groupomania a laissé libre cours à son imagination pour les fonctionnalités du réseau et a imaginé plusieurs briques pour favoriser les échanges entre collègues.</p><p>Voici les exigences émises par le comité de pilotage :</p><ul class='list-disc pl-6 space-y-2'><li>la présentation des fonctionnalités doit être simple ;</li><li>la création d'un compte doit être simple et possible depuis un téléphone mobile ;</li><li>le profil doit contenir très peu d'informations pour que sa complétion soit rapide ;</li><li>la suppression du compte doit être possible ;</li><li>l'accès à un forum où les salarié(e)s publient des contenus multimédias doit être présent ;</li><li>l'accès à un forum où les salarié(e)s publient des textes doit être présent ;</li><li>les utilisateurs doivent pouvoir facilement repérer les dernières participations des employés ;</li><li>le ou la chargé-e de communication Groupomania doit pouvoir modérer les interactions.</li></ul></div>"
+      },
+      "en": {
+        "name": "Groupomania",
+        "description": "Build a professional social network for Groupomania employees.",
+        "content": "<div class='space-y-6'><p>The goal of this tool is to facilitate interactions between colleagues.<br>Groupomania's HR department has given free rein to its imagination for the network's features and has designed several building blocks to promote exchanges between colleagues.</p><p>Here are the requirements issued by the steering committee:</p><ul class='list-disc pl-6 space-y-2'><li>the presentation of features must be simple;</li><li>account creation must be simple and possible from a mobile phone;</li><li>the profile must contain very little information for quick completion;</li><li>account deletion must be possible;</li><li>access to a forum where employees can publish multimedia content must be present;</li><li>access to a forum where employees can publish texts must be present;</li><li>users must be able to easily identify the latest employee participations;</li><li>the Groupomania communication manager must be able to moderate interactions.</li></ul></div>"
+      }
+    }
+  }
+]
