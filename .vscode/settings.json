@@ -5,5 +5,8 @@
   },
   "editor.quickSuggestions": {
     "strings": "on"
-  }
+  },
+  "i18n-ally.localesPaths": [
+    "app/locales"
+  ]
 }

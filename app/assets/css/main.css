@@ -21,23 +21,6 @@
   --color-border-muted: var(--border-muted);
   --color-placeholder: var(--font-placeholder);
 }
-
-html.dark {
-  --ui-bg: var(--color-neutral-950);
-  --bg-secondary: #282828;
-  --bg-card: #282828;
-  --bg-card-hover: #343434;
-
-  --font-primary: #ededed;
-  --font-muted: #808080;
-  --font-inverted: #282828;
-
-  --border-primary: #2E2E2E;
-  --border-primary-hover: #3E3E3E;
-  --border-muted: #1C1822;
-  --font-placeholder: #707070;
-}
-
 html, body, #__nuxt, #__layout {
   height: 100% !important;
   width: 100% !important;
@@ -77,29 +60,45 @@ html, body, #__nuxt, #__layout {
     @apply bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-white;
     box-shadow: 0 0 20px rgba(0, 87, 255, 0.2);
   }
+  .bg-grid-white\/10 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  }
+
+  .bg-grid-16 {
+    background-size: 4rem 4rem;
+  }
+
+  .bg-grid-pattern {
+    background-size: 100px 100px;
+    background-image: 
+      linear-gradient(to right, rgb(255 255 255 / 0.1) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.1) 1px, transparent 1px);
+    background-position: top center;
+  }
 }
 
 .writing {
-  @apply font-geist text-neutral-700/90 dark:text-neutral-300 leading-relaxed;
+  @apply font-geist text-neutral-300 leading-relaxed;
 
   h1 {
-    @apply text-2xl sm:text-3xl text-zinc-900 dark:text-zinc-100 italic font-[600] mb-6 mt-8;
+    @apply text-2xl sm:text-3xl text-zinc-100 italic font-[600] mb-6 mt-8;
   }
 
   h2 {
-    @apply text-xl sm:text-2xl text-zinc-900 dark:text-zinc-100 mb-4 mt-8;
+    @apply text-xl sm:text-2xl text-zinc-100 mb-4 mt-8;
   }
 
   h3 {
-    @apply text-lg sm:text-xl text-zinc-900 dark:text-zinc-100 mb-4 mt-6;
+    @apply text-lg sm:text-xl text-zinc-100 mb-4 mt-6;
   }
 
   h4 {
-    @apply text-base sm:text-lg text-zinc-900 dark:text-zinc-100 mb-4 mt-6;
+    @apply text-base sm:text-lg text-zinc-100 mb-4 mt-6;
   }
 
   h5 {
-    @apply text-base text-zinc-900 dark:text-zinc-100 mb-4 mt-6;
+    @apply text-base text-zinc-100 mb-4 mt-6;
   }
 
   p {
@@ -107,19 +106,19 @@ html, body, #__nuxt, #__layout {
   }
 
   a {
-    @apply text-blue-500 dark:text-blue-500 underline hover:text-blue-600;
+    @apply text-blue-500 underline hover:text-blue-600;
   }
 
   pre {
-    @apply text-sm sm:text-base text-zinc-900 dark:text-zinc-100 my-4 p-4 bg-neutral-100 dark:bg-neutral-800 rounded-lg overflow-x-auto;
+    @apply text-sm sm:text-base text-zinc-100 my-4 p-4 bg-neutral-800 rounded-lg overflow-x-auto;
   }
 
   code {
-    @apply text-zinc-900 dark:text-zinc-100 text-sm px-1.5 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded;
+    @apply text-zinc-100 text-sm px-1.5 py-0.5 bg-neutral-800 rounded;
   }
 
   strong {
-    @apply text-neutral-900 dark:text-neutral-100 font-[500];
+    @apply text-neutral-100 font-[500];
   }
 
   ul, ol {
@@ -131,11 +130,11 @@ html, body, #__nuxt, #__layout {
   }
 
   blockquote {
-    @apply pl-4 border-l-4 border-neutral-300 dark:border-neutral-700 my-4 italic;
+    @apply pl-4 border-l-4 border-neutral-700 my-4 italic;
   }
 
   hr {
-    @apply my-8 border-neutral-200 dark:border-neutral-800;
+    @apply my-8 border-neutral-800;
   }
 
   img {
@@ -147,6 +146,6 @@ html, body, #__nuxt, #__layout {
   }
 
   figcaption {
-    @apply text-sm text-neutral-500 dark:text-neutral-400 mt-2;
+    @apply text-sm text-neutral-400 mt-2;
   }
 }

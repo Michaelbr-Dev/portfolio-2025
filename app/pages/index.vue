@@ -1,11 +1,13 @@
-<script setup>
-const { t } = useI18n()
+<script setup lang="ts">
+import { HomeSkills } from '#components'
 </script>
 
 <template>
-  <div>
-    <h1 class="text-4xl font-bold">
-      {{ t('global.home.title') }}
-    </h1>
+  <div class=" bg-zinc-950">
+    <HeroSection />
+    <Divider />
+    <HomeSkills />
+    <Divider />
+    <HomeProjects />
   </div>
 </template>
