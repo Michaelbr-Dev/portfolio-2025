@@ -3,7 +3,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="flex flex-col items-center justify-center gap-4 sm:gap-2">
+  <div class="flex flex-col items-center mb-6 justify-center gap-4 sm:gap-2">
     <div class="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-2">
       <SpotlightButton>
         <NuxtLinkLocale

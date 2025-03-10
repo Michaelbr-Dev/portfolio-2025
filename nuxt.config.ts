@@ -10,7 +10,8 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
   ],
-  devtools: { enabled: true },
+  ssr: false,
+  devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
 
   future: {
@@ -32,7 +33,7 @@ export default defineNuxtConfig({
     ],
     strategy: 'prefix',
     defaultLocale: 'fr',
-    vueI18n: '~/i18n.config.ts',
+    vueI18n: './app/i18n.config.ts',
   },
   icon: {
     customCollections: [
@@ -40,11 +41,20 @@ export default defineNuxtConfig({
         prefix: 'custom',
         dir: './app/assets/icons',
       },
+      {
+        prefix: 'logo',
+        dir: './app/assets/logos',
+      },
     ],
     clientBundle: {
       scan: true,
       includeCustomCollections: true,
     },
     provider: 'iconify',
+  },
+  image: {
+    provider: 'ipx',
+    dir: 'public/images',
+    domains: ['localhost'],
   },
 })

@@ -26,7 +26,7 @@ const mappedSocials = Object.values(socials).map((link) => {
       <Icon
         :name="social.icon"
         class="text-neutral-500 hover:text-neutral-300"
-        :size="24"
+        :size="28"
         :alt="social.name + ' logo'"
         :aria-label="social.name + ' logo'"
       />

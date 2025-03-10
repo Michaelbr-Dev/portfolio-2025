@@ -1,7 +1,8 @@
 <template>
-  <div>
+  <Body>
+    <LayoutScrollToTop />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-  </div>
+  </Body>
 </template>

@@ -3,7 +3,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <section class="relative min-h-screen -mt-12 bg-zinc-950">
+  <section class="relative -mt-12 bg-zinc-950">
     <!-- grid background -->
     <div class="absolute inset-0">
       <div
@@ -12,7 +12,7 @@ const { t } = useI18n()
       />
     </div>
 
-    <div class="relative mx-auto flex max-w-7xl flex-col justify-center gap-4 px-4 py-8 sm:px-6 lg:px-8 lg:py-16">
+    <div class="relative mx-auto flex max-w-7xl flex-col justify-center gap-4 px-4 py-8 sm:px-6 lg:px-8 lg:py-8">
       <!-- spotlight -->
       <div
         class="absolute -top-8 left-1/2 size-72 -translate-x-1/2 rounded-full bg-white/25 blur-[120px] lg:-top-8 lg:size-[32rem] lg:blur-[200px]"
