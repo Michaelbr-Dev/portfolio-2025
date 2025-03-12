@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { useI18n } from '#imports'
+import SpotlightButton from '~/components/SpotlightButton.vue'
 
 const route = useRoute()
+const router = useRouter()
 const { getProject } = useProjects()
 const { t, locale } = useI18n()
 
@@ -10,6 +12,23 @@ const project = computed(() => getProject(route.params.id as string))
 // Redirection if project not found
 if (!project.value) {
   navigateTo('/')
+}
+
+const { getNextProject, getPreviousProject } = useProjects()
+
+const nextProject = computed(() => getNextProject(route.params.id as string))
+const previousProject = computed(() => getPreviousProject(route.params.id as string))
+
+const goToNextProject = () => {
+  if (nextProject.value) {
+    navigateTo(`/projects/${nextProject.value.id}`)
+  }
+}
+
+const goToPreviousProject = () => {
+  if (previousProject.value) {
+    navigateTo(`/projects/${previousProject.value.id}`)
+  }
 }
 
 useHead(() => ({
@@ -21,6 +40,20 @@ useHead(() => ({
     },
   ],
 }))
+
+const goToPrev = () => {
+  try {
+    if (window.history.length > 1) {
+      router.back()
+    }
+    else {
+      navigateTo('/')
+    }
+  }
+  catch {
+    navigateTo('/')
+  }
+}
 </script>
 
 <template>
@@ -28,6 +61,43 @@ useHead(() => ({
     v-if="project"
     class="min-h-screen bg-zinc-950 px-4 -mt-12 pt-8 pb-6"
   >
+    <!-- Navigation buttons -->
+    <div class="fixed top-1/2 -translate-y-1/2 w-full max-w-7xl left-1/2 -translate-x-1/2 px-4 pointer-events-none">
+      <div class="relative w-full grid grid-cols-2 z-index-5">
+        <!-- Bouton précédent -->
+        <div class="flex justify-start">
+          <SpotlightButton
+            v-if="previousProject"
+            rounded
+            class="pointer-events-auto p-3 rounded-full border-1 border-zinc-700 bg-zinc-800/50 hover:bg-zinc-700/50 transition-colors text-zinc-400 hover:text-zinc-300"
+            :title="previousProject?.name"
+            @click="goToPreviousProject"
+          >
+            <Icon
+              name="heroicons:chevron-left"
+              class="h-6 w-6"
+            />
+          </SpotlightButton>
+        </div>
+
+        <!-- Bouton suivant -->
+        <div class="flex justify-end">
+          <SpotlightButton
+            v-if="nextProject"
+            rounded
+            class="pointer-events-auto p-3 rounded-full border-1 border-zinc-700 bg-zinc-800/50 hover:bg-zinc-700/50 transition-colors text-zinc-400 hover:text-zinc-300"
+            :title="nextProject?.name"
+            @click="goToNextProject"
+          >
+            <Icon
+              name="heroicons:chevron-right"
+              class="h-6 w-6"
+            />
+          </SpotlightButton>
+        </div>
+      </div>
+    </div>
+
     <div class="mx-auto max-w-4xl pt-20 pb-16">
       <!-- Project header -->
       <div
@@ -36,14 +106,15 @@ useHead(() => ({
         style="--stagger: 1"
       >
         <NuxtLink
+          class="inline-flex items-center gap-2 text-sm text-zinc-400 hover:text-zinc-300 transition-colors"
           to="/"
-          class="flex items-center gap-2 text-sm text-zinc-400 hover:text-zinc-300 transition-colors"
+          @click.prevent="goToPrev()"
         >
           <Icon
             name="heroicons:arrow-left"
             class="h-4 w-4"
           />
-          {{ t('global.projects.back') }}
+          {{ t('projects.back') }}
         </NuxtLink>
 
         <h1 class="text-3xl md:text-4xl font-newsreader italic text-zinc-300 text-white-shadow">
@@ -97,17 +168,18 @@ useHead(() => ({
 
       <!-- Technologies -->
       <div
+        v-if="project.technologies"
         class="mb-8"
         data-animate
         style="--stagger: 4"
       >
         <h3 class="text-xl font-newsreader italic text-zinc-400 mb-4">
-          {{ t('global.projects.technologies') }}
+          {{ t('projects.technologies') }}
         </h3>
         <div class="flex flex-col gap-4">
           <!-- Frontend -->
           <div
-            v-if="project.technologies.frontend.length > 0"
+            v-if="project.technologies?.frontend?.length"
             class="flex flex-col gap-2"
           >
             <h3 class="text-zinc-400 text-sm font-medium">
@@ -125,7 +197,7 @@ useHead(() => ({
           </div>
           <!-- Backend -->
           <div
-            v-if="project.technologies.backend.length > 0"
+            v-if="project.technologies?.backend?.length"
             class="flex flex-col gap-2"
           >
             <h3 class="text-zinc-400 text-sm font-medium">

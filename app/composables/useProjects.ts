@@ -17,6 +17,10 @@ export type Project = {
   url: ProjectUrl[]
   tags: string[]
   homepage: boolean
+  technologies?: {
+    frontend: string[]
+    backend: string[]
+  }
   translations: {
     [key: string]: ProjectTranslation
   }
@@ -56,9 +60,23 @@ export const useProjects = () => {
     return project ? localizeProject(project) : undefined
   }
 
+  const getNextProject = (currentId: string) => {
+    const projects = getAllProjects() // Get all projects
+    const currentIndex = projects.findIndex(p => p.id === currentId)
+    return currentIndex < projects.length - 1 ? projects[currentIndex + 1] : null
+  }
+
+  const getPreviousProject = (currentId: string) => {
+    const projects = getAllProjects() // Get all projects
+    const currentIndex = projects.findIndex(p => p.id === currentId)
+    return currentIndex > 0 ? projects[currentIndex - 1] : null
+  }
+
   return {
     getFeaturedProjects,
     getAllProjects,
     getProject,
+    getNextProject,
+    getPreviousProject,
   }
 }

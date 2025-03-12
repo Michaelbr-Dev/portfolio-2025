@@ -1,23 +1,33 @@
 <script setup lang="ts">
 const { t } = useI18n()
-const { getFeaturedProjects } = useProjects()
-const featuredProjects = getFeaturedProjects()
+const { getAllProjects } = useProjects()
+const AllProjects = getAllProjects()
 </script>
 
 <template>
-  <section class="mx-auto flex max-w-4xl flex-col md:mt-12 sm:mt-12">
-    <div class="flex flex-col gap-3">
-      <div class="mb-6 p-2 flex flex-col gap-1">
-        <h3 class="text-zinc-300 text-white-shadow font-newsreader italic text-3xl sm:text-3xl md:text-4xl">
+  <section class="relative -mt-12 bg-zinc-950">
+    <div class="absolute inset-0">
+      <div
+        class="absolute inset-0 bg-grid-pattern opacity-[0.03]"
+      />
+    </div>
+    <div class="relative mx-auto flex max-w-7xl flex-col justify-center gap-4 px-4 py-8 sm:px-6 lg:px-8 lg:py-8">
+      <!-- spotlight -->
+      <div
+        class="absolute -top-8 left-1/2 size-72 -translate-x-1/2 rounded-full lg:-top-8 lg:size-[32rem] lg:blur-[200px]"
+      />
+      <div class="mt-16 p-2 flex flex-col gap-1">
+        <h3 class="text-zinc-300 text-white-shadow text-center font-newsreader italic text-3xl sm:text-3xl md:text-4xl">
           {{ t('projects.title') }}
         </h3>
-        <p class="text-zinc-400">
+        <p class="text-zinc-400 text-center">
           {{ t('projects.subtitle') }}
         </p>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-2 mb-12">
+      <Divider />
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-2 my-6">
         <SpotlightCard
-          v-for="project in featuredProjects"
+          v-for="project in AllProjects"
           :key="project.id"
           white
           class="group"

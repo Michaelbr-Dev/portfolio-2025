@@ -16,15 +16,9 @@
     "title": "Michael Briquet, Développeur Web Full-Stack",
     "subtitle": "Je suis passionné par les technologies modernes et les bonnes pratiques de développement. Je suis spécialisé dans la création d'applications web performantes et accessibles.",
     "stack_title": "Stack",
-    "stack_subtitle": "Quelques technologies et logiciels que j'utilise !",
+    "stack_subtitle": "Quelques technologies et logiciels que j'utilise",
     "projects_title": "Projets",
     "projects_subtitle": "Découvrez mes dernières réalisations"
   },
-  "notFound": "Page non trouvée",
-  "projects": {
-        "viewDemo": "Voir le projet",
-        "viewCode": "Voir le code",
-        "back": "Retour",
-        "technologies": "Technologies utilisées"
-  }
+  "notFound": "Page non trouvée"
 }
