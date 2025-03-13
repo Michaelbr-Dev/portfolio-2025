@@ -22,8 +22,20 @@ export const useSkills = () => {
     return allFeaturedSkills
   }
 
+  const getAllSkills = (): Skill[] => {
+    const allSkills: Skill[] = []
+
+    Object.values(skillsData).forEach((categorySkills) => {
+      const validSkills = categorySkills
+        .filter((skill: Skill) => skill.name && skill.icon)
+      allSkills.push(...validSkills)
+    })
+
+    return allSkills
+  }
+
   return {
     getFeaturedSkills,
-    getAllSkillsByCategory: () => skillsData,
+    getAllSkills,
   }
 }
