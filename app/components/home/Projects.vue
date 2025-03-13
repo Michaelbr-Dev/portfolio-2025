@@ -9,10 +9,10 @@ const featuredProjects = getFeaturedProjects()
     <div class="flex flex-col gap-3">
       <div class="mb-6 p-2 flex flex-col gap-1">
         <h3 class="text-zinc-300 text-white-shadow font-newsreader italic text-3xl sm:text-3xl md:text-4xl">
-          {{ t('projects.title') }}
+          {{ t('global.home.projects_title') }}
         </h3>
         <p class="text-zinc-400">
-          {{ t('projects.subtitle') }}
+          {{ t('global.home.projects_subtitle') }}
         </p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-2 mb-12">
