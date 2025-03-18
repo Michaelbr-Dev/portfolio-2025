@@ -17,7 +17,7 @@ export function getNavigation(where: Where): Record<string, Navigation> | [] {
         },
         projects: {
           name: 'projects',
-          to: '/projects/',
+          to: '/projects',
           icon: 'i-lucide:folders',
         },
         about: {
