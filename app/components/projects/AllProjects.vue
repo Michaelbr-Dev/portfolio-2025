@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import type { Projects } from '~/types/project'
+
 const { t } = useI18n()
 const { getAllProjects } = useProjects()
-const AllProjects = getAllProjects()
+const AllProjects: Projects = getAllProjects()
 </script>
 
 <template>

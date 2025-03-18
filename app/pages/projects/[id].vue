@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useI18n } from '#imports'
+import type { Project } from '~/types/project'
 import SpotlightButton from '~/components/SpotlightButton.vue'
 
 const route = useRoute()
@@ -7,7 +8,7 @@ const router = useRouter()
 const { getProject } = useProjects()
 const { t, locale } = useI18n()
 
-const project = computed(() => getProject(route.params.id as string))
+const project = computed<Project | null>(() => getProject(route.params.id as string))
 
 // Redirection if project not found
 if (!project.value) {
@@ -16,8 +17,8 @@ if (!project.value) {
 
 const { getNextProject, getPreviousProject } = useProjects()
 
-const nextProject = computed(() => getNextProject(route.params.id as string))
-const previousProject = computed(() => getPreviousProject(route.params.id as string))
+const nextProject = computed<Project | null>(() => getNextProject(route.params.id as string))
+const previousProject = computed<Project | null>(() => getPreviousProject(route.params.id as string))
 
 const goToNextProject = () => {
   if (nextProject.value) {

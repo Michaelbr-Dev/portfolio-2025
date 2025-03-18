@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import type { Projects } from '~/types/project'
+
 const { t } = useI18n()
 const { getFeaturedProjects } = useProjects()
-const featuredProjects = getFeaturedProjects()
+const featuredProjects: Projects = getFeaturedProjects()
 </script>
 
 <template>
