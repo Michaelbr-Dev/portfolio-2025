@@ -34,11 +34,28 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   vite: {
     plugins: [Tailwind()],
+    css: {
+      devSourcemap: false,
+    },
+    build: {
+      cssCodeSplit: true,
+      cssMinify: true,
+    },
   },
   eslint: {
     config: {
       stylistic: true,
     },
+  },
+  fonts: {
+    families: [
+      {
+        name: 'newsreader',
+        weights: [400, 500],
+        display: 'swap',
+        preload: true,
+      },
+    ],
   },
   i18n: {
     locales: [
@@ -69,6 +86,28 @@ export default defineNuxtConfig({
   image: {
     provider: 'ipx',
     dir: 'public/images',
-    domains: ['localhost'],
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+    },
+    presets: {
+      avatar: {
+        modifiers: {
+          format: 'webp',
+          quality: '80',
+          loading: 'lazy',
+        },
+      },
+      project: {
+        modifiers: {
+          format: 'webp',
+          quality: '85',
+          loading: 'lazy',
+        },
+      },
+    },
   },
 })

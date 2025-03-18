@@ -27,6 +27,7 @@ const validateData = (data: FormData): string[] => {
 }
 
 export default defineEventHandler(async (event): Promise<MailResponse> => {
+  setHeader(event, 'Content-Type', 'application/json')
   try {
     // Get runtime config
     const config = useRuntimeConfig() as RuntimeConfig
