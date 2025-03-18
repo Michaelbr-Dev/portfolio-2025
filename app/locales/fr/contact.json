@@ -4,11 +4,19 @@
   "fullname": "Nom complet",
   "email": "Email",
   "phone": "Téléphone",
-  "subject": "Sujet de votre message",
+  "subject": "Sujet",
+  "subjectPlaceholder": "Sujet de votre message",
   "message": "Message",
+  "messagePlaceholder": "Travaillons ensemble !",
   "submit": "Envoyer",
   "success": "Votre message a été envoyé avec succès",
-  "error": "Oups, une erreur s'est produite lors de l'envoi de votre message :(",
+  "errors": {
+    "error": "Oups, une erreur s'est produite lors de l'envoi de votre message :(",
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Email invalide",
+    "invalidPhone": "Téléphone invalide",
+    "validation": "Veuillez corriger les erreurs"
+  }, 
   "subject_types": {
     "project": "Parler d'un projet",
     "bug": "Signaler un bug",
