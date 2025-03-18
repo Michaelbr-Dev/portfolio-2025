@@ -3,7 +3,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <section class="relative -mt-12 bg-zinc-950">
+  <section class="relative -mt-14 bg-zinc-950">
     <div class="absolute inset-0">
       <div
         class="absolute inset-0 bg-grid-pattern opacity-[0.03]"

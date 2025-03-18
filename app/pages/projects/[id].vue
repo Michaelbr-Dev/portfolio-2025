@@ -60,7 +60,7 @@ const goToPrev = () => {
 <template>
   <div
     v-if="project"
-    class="min-h-screen bg-zinc-950 px-4 -mt-12 pt-8 pb-6"
+    class="min-h-screen bg-zinc-950 px-4 -mt-14 pt-8 pb-6"
   >
     <!-- Navigation buttons -->
     <div class="fixed top-1/2 -translate-y-1/2 w-full max-w-7xl left-1/2 -translate-x-1/2 px-4 pointer-events-none">
