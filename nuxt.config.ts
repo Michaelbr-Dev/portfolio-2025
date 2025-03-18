@@ -9,11 +9,25 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxt/icon',
     '@nuxt/image',
+    '@nuxt/ui',
+    'vue-sonner/nuxt',
   ],
   ssr: false,
+  imports: {
+    presets: [
+      {
+        from: 'vue-sonner',
+        imports: ['toast'],
+      },
+    ],
+  },
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
-
+  runtimeConfig: {
+    EMAIL_USER: '',
+    APP_PASSWORD: '',
+    EMAIL_RECIPIENT: '',
+  },
   future: {
     compatibilityVersion: 4,
   },
@@ -33,7 +47,7 @@ export default defineNuxtConfig({
     ],
     strategy: 'prefix',
     defaultLocale: 'fr',
-    vueI18n: './app/i18n.config.ts',
+    vueI18n: '../app/i18n.config.ts',
   },
   icon: {
     customCollections: [
