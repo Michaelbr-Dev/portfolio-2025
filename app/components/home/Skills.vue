@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import type { Skills } from '~/types/skill'
+
 const { t } = useI18n()
 const { getFeaturedSkills } = useSkills()
-const featuredSkills = getFeaturedSkills()
+const featuredSkills: Skills = getFeaturedSkills()
 </script>
 
 <template>

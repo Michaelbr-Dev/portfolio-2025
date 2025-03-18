@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import type { Skills } from '~/types/skill'
+
 const { getAllSkills } = useSkills()
-const AllSkills = getAllSkills()
+const AllSkills: Skills = getAllSkills()
 </script>
 
 <template>
