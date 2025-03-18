@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/ui',
     'vue-sonner/nuxt',
+    '@nuxtjs/seo',
   ],
   ssr: false,
   imports: {
@@ -22,11 +23,30 @@ export default defineNuxtConfig({
     ],
   },
   devtools: { enabled: false },
+  app: {
+    head: {
+      title: 'Portfolio',
+      titleTemplate: '%s',
+      htmlAttrs: {
+        lang: 'fr',
+      },
+      meta: [
+        { property: 'og:url', content: 'https://michael-briquet.dev' },
+        { property: 'og:title', content: 'Michael Briquet - Portfolio' },
+        { property: 'og:description', content: 'Portfolio de développeur web full-stack' },
+        { property: 'og:type', content: 'profile' },
+        { property: 'profile:type', content: 'Person' },
+      ],
+    },
+  },
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
     EMAIL_USER: '',
     APP_PASSWORD: '',
     EMAIL_RECIPIENT: '',
+  },
+  routeRules: {
+    '/': { prerender: false },
   },
   future: {
     compatibilityVersion: 4,
@@ -109,5 +129,8 @@ export default defineNuxtConfig({
         },
       },
     },
+  },
+  ogImage: {
+    enabled: false,
   },
 })

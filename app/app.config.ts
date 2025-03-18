@@ -5,7 +5,7 @@ export default defineAppConfig({
   },
   profile: {
     name: 'Michael Briquet',
-    job: 'Développeur Web Full-Stack',
+    job: 'Développeur Web Full-Stack Freelance',
     email: 'contact@michael-briquet.dev',
     phone: '(+33) 7 81 47 59 12',
     picture: 'https://avatars.githubusercontent.com/u/101110845?v=4',

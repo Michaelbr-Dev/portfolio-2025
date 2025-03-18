@@ -7,10 +7,10 @@ const route = useRoute()
 const router = useRouter()
 const { getProject } = useProjects()
 const { t, locale } = useI18n()
+const { profile, seo } = useAppConfig()
 
 const project = computed<Project | null>(() => getProject(route.params.id as string))
 
-// Redirection if project not found
 if (!project.value) {
   navigateTo('/')
 }
@@ -33,11 +33,17 @@ const goToPreviousProject = () => {
 }
 
 useHead(() => ({
-  title: project.value ? `${project.value.name} - Portfolio` : t('global.notFound'),
+  title: `${profile.name} - ${project.value.name}`,
   meta: [
     {
       name: 'description',
       content: project.value?.description || '',
+    },
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: `${seo.url}/projects/${route.params.id}`,
     },
   ],
 }))
