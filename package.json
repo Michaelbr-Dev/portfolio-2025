@@ -1,6 +1,10 @@
 {
-  "name": "app-test",
+  "name": "portfolio",
+  "version": "2.0.0",
   "private": true,
+  "author": "Michael Briquet <contact@michael-briquet.dev> (http://michael-briquet.dev)",
+  "description": "Portfolio de Michael Briquet",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -11,6 +15,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
+  "packageManager": "pnpm@10.6.4",
   "dependencies": {
     "@iconify-json/mdi": "^1.2.3",
     "@intlify/message-compiler": "^11.1.2",
@@ -28,12 +33,10 @@
     "eslint": "^9.22.0",
     "nodemailer": "^6.10.0",
     "nuxt": "^3.16.0",
+    "sitemap": "^8.0.0",
     "tailwindcss": "^4.0.14",
-    "vue": "latest",
-    "vue-router": "latest",
     "vue-sonner": "^1.3.0"
   },
-  "packageManager": "pnpm@10.5.2",
   "devDependencies": {
     "@egoist/tailwindcss-icons": "^1.9.0",
     "sharp": "^0.33.5",
