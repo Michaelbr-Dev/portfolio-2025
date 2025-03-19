@@ -165,6 +165,12 @@
       "icon": "logo:airbnb",
       "link": "https://airbnb.io/javascript/",
       "featured": "false"
+    },
+    {
+      "name": "Babel",
+      "icon": "logo:babel",
+      "link": "https://babel.dev/",
+      "featured": "false"
     }
   ],
   "utils": [
