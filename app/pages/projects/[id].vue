@@ -69,8 +69,8 @@ const goToPrev = () => {
     class="min-h-screen bg-zinc-950 px-4 -mt-14 pt-8 pb-6"
   >
     <!-- Navigation buttons -->
-    <div class="fixed top-1/2 -translate-y-1/2 w-full max-w-7xl left-1/2 -translate-x-1/2 px-4 pointer-events-none">
-      <div class="relative w-full grid grid-cols-2 z-index-5">
+    <div class="fixed top-1/2 -translate-y-1/2 w-full max-w-7xl left-1/2 -translate-x-1/2 px-4 pointer-events-none z-50">
+      <div class="relative w-full grid grid-cols-2">
         <!-- Bouton précédent -->
         <div class="flex justify-start">
           <SpotlightButton
