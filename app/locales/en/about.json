@@ -1,0 +1,10 @@
+{
+  "title" : "About",
+  "subtitle": "A few words about me.",
+  "stack_title" : "Stack",
+  "stack_subtitle": "Some technologies and software that I use for my projects.",
+  "item1": "Passionate about web development, I put my skills and expertise at your service to create modern, efficient websites adapted to your needs.",
+  "item2": "With more than four years of experience as a self-employed person, I have had the opportunity to work on a lot of projects ranging from the creation of showcase sites for SMEs to complex web applications.",
+  "item3": "My career path has allowed me to develop solid expertise in several technologies and frameworks, including Nuxt, Vue.js, React.js, JavaScript, Node.js, MongoDB, SQL, and many more.",
+  "item4": "Interested in my services? Don't hesitate to contact me to discuss your project and find out how I can help you achieve your digital goals."
+}

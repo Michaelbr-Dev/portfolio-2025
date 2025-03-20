@@ -1,0 +1,196 @@
+{
+  "frontEnd": [
+    {
+      "name": "Nuxt.js",
+      "icon": "logo:nuxt",
+      "link": "https://nuxt.com/",
+      "featured": "true"
+    },
+    {
+      "name": "Vue.js",
+      "icon": "logo:vuejs",
+      "link": "https://vuejs.org/",
+      "featured": "true"
+    },
+    {
+      "name": "React",
+      "icon": "logo:react",
+      "link": "https://reactjs.org/",
+      "featured": "true"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "logo:tailwindcss",
+      "link": "https://tailwindcss.com/",
+      "featured": "true"
+    },
+    {
+      "name": "Vuetify",
+      "icon": "logo:vuetify",
+      "link": "https://vuetifyjs.com/",
+      "featured": "true"
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "logo:bootstrap",
+      "link": "https://getbootstrap.com/",
+      "featured": "false"
+    },
+    {
+      "name": "Sass",
+      "icon": "logo:sass",
+      "link": "https://sass-lang.com/",
+      "featured": "false"
+    },
+    {
+      "name": "Less",
+      "icon": "logo:less",
+      "link": "http://lesscss.org/",
+      "featured": "false"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "logo:javascript",
+      "link": "https://www.javascript.com",
+      "featured": "false"
+    },
+    {
+      "name": "CSS3",
+      "icon": "logo:css3",
+      "link": "https://www.w3schools.com/css/",
+      "featured": "false"
+    },
+    {
+      "name": "HTML5",
+      "icon": "logo:html5",
+      "link": "https://www.w3schools.com/html/",
+      "featured": "false"
+    }
+  ],
+  "backEnd": [
+    {
+      "name": "Laravel",
+      "icon": "logo:laravel",
+      "link": "https://laravel.com/",
+      "featured": "true"
+    },
+    {
+      "name": "Symfony",
+      "icon": "logo:symfony",
+      "link": "https://symfony.com",
+      "featured": "true"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "logo:mongodb",
+      "link": "https://mongodb.com",
+      "featured": "true"
+    },
+    {
+      "name": "Node.js",
+      "icon": "logo:nodejs",
+      "link": "https://nodejs.org/",
+      "featured": "false"
+    },
+    {
+      "name": "Express.js",
+      "icon": "logo:expressjs",
+      "link": "https://expressjs.com",
+      "featured": "false"
+    },
+    {
+      "name": "PHP",
+      "icon": "logo:php",
+      "link": "https://www.php.net/",
+      "featured": "false"
+    },
+    {
+      "name": "MySQL",
+      "icon": "logo:mysql",
+      "link": "https://www.mysql.com/",
+      "featured": "false"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Git",
+      "icon": "logo:git",
+      "link": "https://git-scm.com/",
+      "featured": "false"
+    },
+    {
+      "name": "Jestjs",
+      "icon": "logo:jest",
+      "link": "https://jestjs.io",
+      "featured": "false"
+    },
+    {
+      "name": "npm",
+      "icon": "logo:npm",
+      "link": "https://npmjs.com",
+      "featured": "true"
+    },
+    {
+      "name": "pnpm",
+      "icon": "logo:pnpm",
+      "link": "https://pnpm.io",
+      "featured": "true"
+    },
+    {
+      "name": "Webpack",
+      "icon": "logo:webpack",
+      "link": "https://webpack.js.org/",
+      "featured": "false"
+    },
+    {
+      "name": "Vitejs",
+      "icon": "logo:vitejs",
+      "link": "https://vitejs.fr/",
+      "featured": "false"
+    },
+    {
+      "name": "Prettier",
+      "icon": "logo:prettier",
+      "link": "https://prettier.io",
+      "featured": "false"
+    },
+    {
+      "name": "ESLint",
+      "icon": "logo:eslint",
+      "link": "https://eslint.org/",
+      "featured": "false"
+    },
+    {
+      "name": "Airbnb",
+      "icon": "logo:airbnb",
+      "link": "https://airbnb.io/javascript/",
+      "featured": "false"
+    },
+    {
+      "name": "Babel",
+      "icon": "logo:babel",
+      "link": "https://babel.dev/",
+      "featured": "false"
+    }
+  ],
+  "utils": [
+    {
+      "name": "GitHub",
+      "icon": "logo:github",
+      "link": "https://github.com/",
+      "featured": "true"
+    },
+    {
+      "name": "Figma",
+      "icon": "logo:figma",
+      "link": "https://www.figma.com/",
+      "featured": "true"
+    },
+    {
+      "name": "Notion",
+      "icon": "logo:notion",
+      "link": "https://www.notion.so/",
+      "featured": "false"
+    }
+  ]
+}

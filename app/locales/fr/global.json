@@ -11,5 +11,14 @@
   "meeting": "Prendre rendez-vous",
   "available" : "Disponible pour de nouvelles opportunités",
   "unavailable" : "Actuellement en train de travailler sur d'autres projets",
-  "all_rights_reserved": "Tous droits réservés"
+  "all_rights_reserved": "Tous droits réservés",
+  "home": {
+    "title": "Michael Briquet, Développeur Web Full-Stack",
+    "subtitle": "Je suis passionné par les technologies modernes et les bonnes pratiques de développement. Je suis spécialisé dans la création d'applications web performantes et accessibles.",
+    "stack_title": "Stack",
+    "stack_subtitle": "Quelques technologies et logiciels que j'utilise",
+    "projects_title": "Projets",
+    "projects_subtitle": "Découvrez mes dernières réalisations."
+  },
+  "notFound": "Page non trouvée"
 }

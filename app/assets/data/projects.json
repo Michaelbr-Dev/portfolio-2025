@@ -1,0 +1,370 @@
+[
+  {
+    "id": "0",
+    "image": "project_booki.webp",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-2/",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-2",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3"],
+      "backend": []
+    },
+    "tags": ["OpenClassrooms", "Frontend"],
+    "homepage": false,
+    "translations": {
+      "fr": {
+        "name": "Booki",
+        "description": "Transformer une maquette en site web avec HTML & CSS.",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><h3 class='text-xl font-newsreader text-zinc-400 mb-4'>Scénario</h3><p class='mb-4'>Votre mission principale sera d'intégrer l'interface responsive de leur site. Vous aurez à disposition les maquettes Figma pour mobile, tablette et desktop, ainsi que les images et une note de synthèse sur les spécificités du projet.</p><p class='mb-4'>Vous serez encouragé à ne pas vous fier à l'outil code de Figma, mais plutôt à écrire votre propre code HTML et CSS.</p><p class='mb-4'>Cela vous donnera une compréhension plus profonde de la manière dont le code est structuré et stylisé pour répondre aux exigences de design.</p><p class='mb-4'>En travaillant sur ce projet, vous développerez des compétences essentielles en design responsive, assurant que la page d'accueil fonctionne bien sur tous les appareils et tailles d'écran.</p></div><div><h3 class='text-zinc-300 font-newsreader italic text-3xl sm:text-3xl md:text-4xl'>Compétences évaluées</h3><ul class='list-disc pl-6 space-y-2'><li>Intégrer du contenu conformément à une maquette</li><li>Implémenter une interface responsive</li></ul></div></article></div>"
+      },
+      "en": {
+        "name": "Booki",
+        "description": "Transform a mockup into a website with HTML & CSS.",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><h3 class='text-xl font-newsreader text-zinc-400 mb-4'>Scenario</h3><p class='mb-4'>Your main mission will be to integrate the responsive interface of their site. You will be provided with Figma mockups for mobile, tablet, and desktop, as well as images and a briefing note on the specifics of the project.</p><p class='mb-4'>You will be encouraged not to rely on Figma's code tool, but rather to write your own HTML and CSS.</p><p class='mb-4'>This will give you a deeper understanding of how code is structured and styled to meet design requirements.</p><p class='mb-4'>By working on this project, you will develop essential responsive design skills, ensuring the homepage works well on all devices and screen sizes.</p></div><div><h3 class='text-zinc-300 font-newsreader italic text-3xl sm:text-3xl md:text-4xl'>Assessed Skills</h3><ul class='list-disc pl-6 space-y-2'><li>Integrate content according to a mockup</li><li>Implement a responsive interface</li></ul></div></article></div>"
+      }
+    }
+  },
+  {
+    "id": "1",
+    "image": "project_ohmyfood.webp",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-3/",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-3",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "Sass"],
+      "backend": []
+    },
+    "tags": ["OpenClassrooms", "Frontend"],
+    "homepage": false,
+    "translations": {
+      "fr": {
+        "name": "ohmyfood",        
+        "description": "Dynamisez une page web avec des animations CSS",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><h3 class='text-xl font-newsreader text-zinc-400 mb-4'>Scénario</h3><p class='mb-4'>Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration.<br>Déjà présente à New-York, elle souhaite désormais faire sa place à Paris.</p><p class='mb-4'>Votre mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques.</p><p class='mb-4'>En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.</p><p class='mb-4'>Finis, les temps d'attente au restaurant !</p><p class='mb-4'>L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Paul décide alors que le site contiendra 4 menus dans un premier temps.</p><p class='mb-4'>L’UX designer a finalisé les maquettes mobile et desktop du site !<br>Il n’y a plus qu’à le développer pour mobile, tablette et desktop en s’appuyant rigoureusement sur les informations déterminées dans le brief créatif !<br>Pour rappel, le site doit être responsive et en “mobile first”. On veut aussi des animations soignées.<br>Le projet va pouvoir commencer.</p></div><div><h3 class='text-zinc-300 font-newsreader italic text-3xl sm:text-3xl md:text-4xl'>Compétences évaluées</h3><ul class='list-disc pl-6 space-y-2'><li>Mettre en œuvre des effets CSS graphiques avancés</li><li>Assurer la cohérence graphique d'un site web</li><li>Mettre en place une structure de navigation pour un site web</li><li>Mettre en place son environnement Front-End</li><li>Utiliser un système de gestion de versions pour le suivi du projet et son hébergement</li></ul></div></article></div>"
+      },
+      "en": {
+        "name": "ohmyfood",
+        "description": "Energize a web page with CSS animations",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><h3 class='text-xl font-newsreader text-zinc-400 mb-4'>Scenario</h3><p class='mb-4'>You joined Ohmyfood as a junior developer. This is a young startup that wants to establish itself in the restaurant market. <br>Already present in New York, it now wants to make its mark in Paris.</p><p class='mb-4'>Your mission is to develop a “mobile first” site that lists the menus of gourmet restaurants.</p><p class='mb-4'>In addition to traditional reservation systems, customers will be able to create their own meal menu so that the dishes are ready upon their arrival.</p><p class='mb-4'>No more waiting times at the restaurant!</p><p class='mb-4'>The sales team has already managed to convince 4 restaurateurs to use the OhMyFood platform. Paul then decides that the site will initially contain 4 menus.</p><p class='mb-4'>The UX designer has finalized the mobile and desktop mockups of the site!<br>All that remains is to develop it for mobile, tablet, and desktop, rigorously relying on the information determined in the creative brief!<br>As a reminder, the site must be responsive and “mobile first.” We also want neat animations.<br>The project can now begin.</p></div><div><h3 class='text-zinc-300 font-newsreader italic text-3xl sm:text-3xl md:text-4xl'>Skills assessed</h3><ul class='list-disc pl-6 space-y-2'><li>Implement advanced graphical CSS effects</li><li>Ensure the graphic consistency of a website</li><li>Set up a navigation structure for a website</li><li>Set up its front-end environment</li><li>Use a version control system for project monitoring and hosting</li></ul></div></article></div>"
+      }
+    }
+  },
+  {
+    "id": "2",
+    "image": "project_panthere.webp",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-4/",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-4",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "JavaScript"],
+      "backend": []
+    },
+    "tags": ["OpenClassrooms", "SEO"],
+    "homepage": false,
+    "translations": {
+      "fr": {
+        "name": "La Panthère",
+        "description": "Optimiser un site web existant",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><h3 class='text-xl font-newsreader text-zinc-400 mb-4'>Scénario</h3><p class='mb-4'>Vous travaillez pour l'agence La Panthère, une grande agence de web design basée à Lyon.<br>L’activité de l’entreprise a bien démarré mais aujourd’hui, elle est en perte de vitesse. Eh oui, la concurrence est rude.<br>La fondatrice de l’entreprise, Sophie, cherche une solution pour faire repartir l’activité. En tapant “Entreprise web design Lyon” sur Internet, elle s’aperçoit que le site de l’agence apparaît seulement en deuxième page des moteurs de recherche.<br>Par chance, un de vos collègues, Martin, lui a dit que vous étiez un spécialiste en référencement.</p><p class='mb-6'>Voici les points sur lesquels tu devras travailler :<ul class='list-disc pl-6 space-y-2'><li>Analyse de l’état actuel de SEO du site fourni./li><li>Amélioration du SEO du site.</li><li>Comparaison des résultats.</li></ul>L'objectif est d'optimiser un site web existant.<br />Le site est composé de 10 pages.<br />Le site est responsive et respecte les normes d'accessibilité.</p></div><div><h3 class='text-zinc-300 font-newsreader italic text-3xl sm:text-3xl md:text-4xl'>Compétences évaluées</h3><ul class='list-disc pl-6 space-y-2'><li>Écrire un code HTML et CSS maintenable</li><li>Optimiser le référencement d'un site web</li><li>Optimiser la taille et la vitesse d’un site web</li><li>Assurer l'accessibilité d'un site web</li><li>Réaliser une recherche des bonnes pratiques en développement web</li></ul></div></article></div>"
+      },
+      "en": {
+        "name": "La Panthère",
+        "description": "Optimizing an existing website",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><h3 class='text-xl font-newsreader text-zinc-400 mb-4'>Scenario</h3><p class='mb-4'>You work for the La Panthère agency, a large web design agency based in Lyon.<br>The company's business got off to a good start, but today it's losing momentum. Yes, the competition is tough.<br>The company's founder, Sophie, is looking for a solution to get the business going again. By typing “Web design company Lyon” on the Internet, she realizes that the agency’s site only appears on the second page of search engines.<br>Luckily, one of your colleagues, Martin, told her that you were an SEO specialist.</p><p class='mb-6'>Here are the points you will have to work on:<ul class='list-disc pl-6 space-y-2'><li>Analysis of the current SEO status of the site provided./li><li>Improvement of the site’s SEO.</li><li>Comparison of results.</li></ul>The objective is to optimize an existing website.<br />The site is made up of 10 pages.<br />The site is responsive and complies with accessibility standards.</p></div><div><h3 class='text-zinc-300 font-newsreader italic text-3xl sm:text-3xl md:text-4xl'>Skills assessed</h3><ul class='list-disc pl-6 space-y-2'><li>Write maintainable HTML and CSS code</li><li>Optimize a website's SEO</li><li>Optimize the size and speed of a website</li><li>Ensure the accessibility of a website</li><li>Conduct research into best practices in web development</li></ul></div></article></div>"
+      }
+    }
+  },
+  {
+    "id": "3",
+    "image": "project_kanap.webp",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.github.io/OC-Project-5/front/html/index.html",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-5",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "JavaScript"],
+      "backend": [ "Express.js", "JSDoc" ]
+    },
+    "tags": ["OpenClassrooms", "Frontend"],
+    "homepage": false,
+    "translations": {
+      "fr": {
+        "name": "Kanap",
+        "description": "Réalisation d'une plateforme E-commerce en Javascript",
+        "content": "<div class='space-y-6'><article><h3 class='text-xl font-newsreader text-zinc-400 mb-4'>Scénario</h3><p>Vous êtes en poste dans une agence de développement web depuis quelques semaines maintenant. Après avoir réalisé avec succès l’intégration de quelques sites web (HTML/CSS), on vous confie une nouvelle mission.<br>Votre client est Kanap, une marque de canapés qui vend ses produits depuis sa boutique exclusivement. Aujourd’hui, celle-ci souhaiterait avoir une plateforme de e-commerce en plus de sa boutique physique pour vendre ses produits sur Internet.</p><p>Dans le cadre de cette mission, vous travaillez avec une équipe constituée de :<ul class='list-disc pl-6 space-y-2'><li>Corinne, le CTO de l’agence,</li><li>Frank, le développeur front-end qui s’est chargé d’intégrer la maquette statique du site,</li><li>Bilal, le développeur back-end qui implémente l’API à laquelle est connecté le front-end.</li></ul></p><h3 class='text-xl font-newsreader italic text-zinc-400 mb-4'>Compétences évaluées :</h3><p><ul class='list-disc pl-6 space-y-2'><li>Gérer des événements JavaScript</li><li>Interagir avec un web service avec JavaScript</li><li>Valider des données issues de sources externes</li><li>Créer un plan de test pour une application</li></ul></p></div>"
+      },
+      "en": {
+        "name": "Kanap",
+        "description": "Creation of an E-commerce platform in Javascript",
+        "content": "<div class='space-y-6'><article><h3 class='text-xl font-newsreader italic text-zinc-400 mb-4'>Scenario</h3><p>You have been working in a web development agency for a few weeks now. After successfully integrating a few websites (HTML/CSS), you are given a new mission.<br>Your client is Kanap, a sofa brand that sells its products exclusively from its store. Today, it would like to have an e-commerce platform in addition to its physical store to sell its products on the Internet.</p><p>As part of this mission, you will work with a team made up of:<ul class='list-disc pl-6 space-y-2'><li>Corinne, the agency's CTO,</li><li>Frank, the front-end developer who was responsible for integrating the static model of the site,</li><li>Bilal, the back-end developer who implements the API to which the front-end is connected.</li></ul></p><h3 class='text-xl font-newsreader italic text-zinc-400 mb-4'>Skills assessed:</h3><p><ul class='list-disc pl-6 space-y-2'><li>Manage JavaScript events</li><li>Interact with a web service with JavaScript</li><li>Validate data from sources external</li><li>Create a test plan for an application</li></ul></p></div>"
+      }
+    }
+  },
+  {
+    "id": "4",
+    "image": "project_piiquante.webp",
+    "url": [
+      {
+        "url": "#",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-6",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "JavaScript" ],
+      "backend": [ "Node.js", "Express.js", "MongoDB", "JSDoc" ]
+    },
+    "tags": ["OpenClassrooms", "Backend"],
+    "homepage": false,
+    "translations": {
+      "fr": {
+        "name": "Piiquante",
+        "description": "Construction d'une API sécurisée pour une application d'avis gastronomiques",
+        "content": "<div class='space-y-6'><article><p class='mb-4'>Développement d'une application web nommée \"Piiquante\" dans laquelle les utilisateurs pourront ajouter leurs sauces préférées et liker ou disliker les sauces proposées par les autres utilisateurs.<br>Le but est de créer le backend de l'application, le frontend étant déjà codé et fourni.</p><div class='mb-6'><h3 class='text-zinc-300 font-newsreader text-3xl sm:text-3xl md:text-4xl'>Objectifs du projet :</h3><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>Développement Backend en Javascript</h4><ul class='list-disc pl-6 space-y-2'><li>Serveur Node.js</li><li>Framework Express</li><li>Base de données MongoDB</li><ul class='list-disc pl-6 space-y-2'><li>Hébergement sur MongoDB Atlas</li><li>Opérations relatives à la BDD réalisées avec mongoose</li></ul><li>API REST</li><li>Sécurité OWASP et RGPD</li></ul><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>Mesures de sécurité mises en place :</h4><ul class='list-disc pl-6 space-y-2'><li>Hashage du mot de passe utilisateur avec bcrypt</li><li>Manipulation sécurisée de la base de données avec mongoose</li><li>Vérification de l'unicité de l'email dans la base de données avec mongoose-unique-validator</li><li>Vérification de la validité du format de l'email utilisateur avec email-validator</li><li>Vérification de la force du mot de passe avec password-validator</li><li>Utilisation de variables d'environnement pour les données sensibles avec dotenv</li><li>Authentification de l'utilisateur par token avec jsonwebtoken</li></ul></div><div><h3 class='text-zinc-300 font-newsreader italic text-3xl sm:text-3xl md:text-4xl'>Compétences évaluées</h3><ul class='list-disc pl-6 space-y-2'><li>Implémenter un modèle logique de données conformément à la réglementation</li><li>Mettre en œuvre des opérations CRUD de manière sécurisée</li><li>Stocker des données de manière sécurisée</li></ul></div></article></div>"
+      },
+      "en": {
+        "name": "Piiquante",
+        "description": "Building a Secure API for a Food Review App",
+        "content": "<div class='space-y-6'><article><p class='mb-4'>Development of a web application named \"Piiquante\" in which users can add their favorite sauces and like or dislike the sauces suggested by other users.<br>The goal is to create the backend of the application, the frontend being already coded and provided.</p><div class='mb-6'><h3 class='text-zinc-300 font-newsreader text-3xl sm:text-3xl md:text-4xl'>Project goals:</h3><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>Backend development in Javascript</h4><ul class='list-disc pl-6 space-y-2'><li>Node.js server</li><li>Express framework</li><li>MongoDB database</li><ul class='list-disc pl-6 space-y-2'><li>Hosting on MongoDB Atlas</li><li>DB operations performed with mongoose</li></ul><li>REST API</li><li>OWASP security and GDPR</li></ul><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>Security measures implemented:</h4><ul class='list-disc pl-6 space-y-2'><li>User password hashing with bcrypt</li><li>Secure database manipulation with mongoose</li><li>Email uniqueness check in the database with mongoose-unique-validator</li><li>User email format validity check with email-validator</li><li>Password strength check with password-validator</li><li>Use environment variables for sensitive data with dotenv</li><li>User authentication by token with jsonwebtoken</li></ul></div><div><h3 class='text-zinc-300 font-newsreader italic text-3xl sm:text-3xl md:text-4xl'>Skills assessed</h3><ul class='list-disc pl-6 space-y-2'><li>Implement a logical data model in accordance with regulations</li><li>Implement CRUD operations securely</li><li>Store data securely</li></ul></div></article></div>"
+      }
+    }
+  },
+  {
+    "id": "5",
+    "image": "project_groupomania.webp",
+    "url": [
+      {
+        "url": "#",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le projet",
+          "en": "View project"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/P7-frontend",
+        "type": "code",
+        "name": {
+          "fr": "Le code front",
+          "en": "Frontend code"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/OC-Project-7-backend",
+        "type": "code",
+        "name": {
+          "fr": "Le code back",
+          "en": "Backend code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "JavaScript", "Vue.js" ],
+      "backend": [ "Node.js", "Express.js", "MongoDB", "JSDoc" ]
+    },
+    "tags": ["OpenClassrooms", "Frontend", "Backend"],
+    "homepage": false,
+    "translations": {
+      "fr": {
+        "name": "Groupomania",
+        "description": "Réaliser un réseau social professionnel pour les employé(e)s de Groupomania.",
+        "content": "<div class='space-y-6'><article><p class='mb-4'>Le but de cet outil est de faciliter les interactions entre collègues.<br>Le département RH de Groupomania a laissé libre cours à son imagination pour les fonctionnalités du réseau et a imaginé plusieurs briques pour favoriser les échanges entre collègues.</p><div class='mb-6'><h3 class='text-zinc-300 font-newsreader text-3xl sm:text-3xl md:text-4xl'>Exigences du comité de pilotage :</h3><ul class='list-disc pl-6 space-y-2'><li>la présentation des fonctionnalités doit être simple,</li><li>la création d'un compte doit être simple et possible depuis un téléphone mobile,</li><li>le profil doit contenir très peu d'informations pour que sa complétion soit rapide,</li><li>la suppression du compte doit être possible,</li><li>l'accès à un forum où les salarié(e)s publient des contenus multimédias doit être présent,</li><li>l'accès à un forum où les salarié(e)s publient des textes doit être présent,</li><li>les utilisateurs doivent pouvoir facilement repérer les dernières participations des employés,</li><li>le ou la chargé-e de communication Groupomania doit pouvoir modérer les interactions.</li></ul></div><div><h3 class='text-zinc-300 font-newsreader italic text-3xl sm:text-3xl md:text-4xl'>Compétences évaluées</h3><ul class='list-disc pl-6 space-y-2'><li>Authentifier un utilisateur et maintenir sa session</li><li>Implémenter un stockage de données sécurisé en utilisant une base de données</li><li>Développer l'interface d'un site web grâce à un framework front-end</li></ul></div></article></div>"
+      },
+      "en": {
+        "name": "Groupomania",
+        "description": "Build a professional social network for Groupomania employees.",
+        "content": "<div class='space-y-6'><article><p class='mb-4'>The goal of this tool is to facilitate interactions between colleagues.<br>Groupomania's HR department has given free rein to its imagination for the network's functionalities and has come up with several building blocks to encourage exchanges between colleagues.</p><div class='mb-6'><h3 class='text-zinc-300 font-newsreader text-3xl sm:text-3xl md:text-4xl'>Steering committee requirements:</h3><ul class='list-disc pl-6 space-y-2'><li>the presentation of the functionalities must be simple,</li><li>creating an account must be simple and possible from a mobile phone,</li><li>the profile must contain very little information so that it can be completed quickly,</li><li>deleting the account must be possible,</li><li>access to a forum where employees publish multimedia content must be present,</li><li>access to a forum where employees publish texts must be present,</li><li>users must be able to easily identify the latest contributions of employees,</li><li>the Groupomania communications officer must be able to moderate interactions.</li></ul></div><div><h3 class='text-zinc-300 font-newsreader italic text-3xl sm:text-3xl md:text-4xl'>Skills assessed</h3><ul class='list-disc pl-6 space-y-2'><li>Authenticate a user and maintain their session</li><li>Implement secure data storage using a database</li><li>Develop a website interface using a front-end framework</li></ul></div></article></div>"
+      }
+    }
+  },
+  {
+    "id": "6",
+    "image": "portfolio_nuxt3_v1.webp",
+    "url": [
+      {
+        "url": "https://michaelbr-dev.fr/",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le site",
+          "en": "View site"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/portfolio-n3",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "JavaScript", "Nuxt.js", "Vuetify" ],
+      "backend": []
+    },
+    "tags": ["Frontend"],
+    "homepage": true,
+    "translations": {
+      "fr": {
+        "name": "Portfolio personnel V1.0",
+        "description": "Création d'un Portfolio Personnel Dynamique et Réactif",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><p class='mb-4'>Développement d'un site web personnel, visant à présenter mes compétences, projets et expériences en tant que développeur web.</p><p class='mb-4'>L'objectif est de créer une plateforme professionnelle et attrayante, mettant en valeur mon expertise et facilitant la prise de contact.</p><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>Objectifs du projet :</h4><ul class='list-disc pl-6 space-y-2'><li>Conception et développement d'un site web responsive et accessible</li><li>Intégration d'un design moderne et intuitif</li><li>Optimisation pour le référencement (SEO)</li></ul></div></article></div>"
+      },
+      "en": {
+        "name": "Personnal portfolio v1.0",
+        "description": "Creating a Dynamic and Responsive Personal Portfolio",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><p class='mb-4'>Development of a personal website, aimed at showcasing my skills, projects, and experience as a web developer.</p><p class='mb-4'>The goal is to create a professional and attractive platform, showcasing my expertise and making it easy to get in touch.</p><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>Project objectives:</h4><ul class='list-disc pl-6 space-y-2'><li>Design and development of a responsive and accessible website</li><li>Integration of a modern and intuitive design</li><li>SEO optimization</li></ul></div></article></div>"
+      }
+    }
+  },
+  {
+    "id": "7",
+    "image": "allopizza.webp",
+    "url": [
+      {
+        "url": "http://allopizzastsaulve.fr/",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le site",
+          "en": "View site"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/allopizza",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "JavaScript", "Nuxt.js", "Vuetify" ],
+      "backend": []
+    },
+    "tags": ["Frontend"],
+    "homepage": true,
+    "translations": {
+      "fr": {
+        "name": "Allopizza Saint-Saulve",
+        "description": "Création d'un Site Web Vitrine pour une Pizzeria Locale",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><p class='mb-4'>Développement d'un site web pour Allo Pizza Saint-Saulve, visant à présenter le menu, les informations pratiques et les services de la pizzeria.</p><p class='mb-4'>L'objectif est de créer une plateforme simple et efficace, permettant aux clients de consulter les informations essentielles et de passer commande facilement.</p><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>Objectifs du projet :</h4><ul class='list-disc pl-6 space-y-2'><li>Conception et développement d'un site web responsive et adapté aux appareils mobiles</li><li>Présentation claire et attractive du menu de la pizzeria</li><li>Mise en avant des informations pratiques (horaires, adresse, contact)</li><li>Optimisation pour le référencement local (SEO)</li></ul></div></article></div>"
+      },
+      "en": {
+        "name": "Allopizza Saint-Saulve",
+        "description": "Creation of a Showcase Website for a Local Pizzeria",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><p class='mb-4'>Development of a website for Allo Pizza Saint-Saulve, aimed at presenting the menu, practical information and services of the pizzeria.</p><p class='mb-4'>The objective is to create a simple and efficient platform, allowing customers to consult essential information and place orders easily.</p><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>Project objectives:</h4><ul class='list-disc pl-6 space-y-2'><li>Design and development of a responsive website adapted to mobile devices</li><li>Clear and attractive presentation of the pizzeria menu</li><li>Highlighting practical information (opening hours, address, contact)</li><li>Optimization for local SEO (SEO)</li></ul></div></article></div>"
+      }
+    }
+  },
+  {
+    "id": "8",
+    "image": "project_boilerplate-n3.webp",
+    "url": [
+      {
+        "url": "#",
+        "type": "demo",
+        "name": {
+          "fr": "Voir le site",
+          "en": "View site"
+        }
+      },
+      {
+        "url": "https://github.com/Michaelbr-Dev/Boilerplate-Nuxt3",
+        "type": "code",
+        "name": {
+          "fr": "Voir le code",
+          "en": "View code"
+        }
+      }
+    ],
+    "technologies": {
+      "frontend": [ "HTML5", "CSS3", "JavaScript", "Nuxt.js", "Tailwindcss" ],
+      "backend": []
+    },
+    "tags": ["Frontend"],
+    "homepage": true,
+    "translations": {
+      "fr": {
+        "name": "BoilerPlate Nuxt 3",
+        "description": "Un starter Nuxt 3 avec de nombreuses fonctionnalités.",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><p class='mb-4'>Outil de démarrage Nuxt 3 avec de nombreuses fonctionnalités intégrées, prêt pour Nuxt 4 et compatible avec les futures mises à jour.<br>Les linters sont Airbnb eslint, prettiers, Typescript et stylelint.</p><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>liste des features :</h4><ul class='list-disc pl-6 space-y-2'><li>@mdi/font</li><li>@nuxt/fonts</li><li>@nuxt/icon</li><li>@nuxt/image</li><li>@nuxtjs/google-fonts</li><li>@nuxtjs/robots</li><li>@nuxtjs/sitemap</li><li>@nuxt/eslint</li><li>tailwindcss</li><li>nuxt-svgo</li><li>vue-tsc</li></ul></div></article></div>"
+      },
+      "en": {
+        "name": "BoilerPlate Nuxt 3",
+        "description": "A Nuxt 3 boilerplate starter with a lot of features.",
+        "content": "<div class='space-y-6'><article><div class='mb-6'><p class='mb-4'>Nuxt 3 starter tool with many built-in features, ready for Nuxt 4 and compatible with future updates.<br>Linters are Airbnb eslint, prettiers, Typescript, and stylelint.</p><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>feature list:</h4><ul class='list-disc pl-6 space-y-2'><li>@mdi/font</li><li>@nuxt/fonts</li><li>@nuxt/icon</li><li>@nuxt/image</li><li>@nuxtjs/google-fonts</li><li>@nuxtjs/robo ts</li><li>@nuxtjs/sitemap</li><li>@nuxt/eslint</li><li>tailwindcss</li><li>nuxt-svgo</li><li>vue-tsc</li></ul></div></article></div>"
+      }
+    }
+  }
+]

@@ -1,6 +1,10 @@
 {
-  "name": "nuxt-app",
+  "name": "portfolio",
+  "version": "2.0.0",
   "private": true,
+  "author": "Michael Briquet <contact@michael-briquet.dev> (http://michael-briquet.dev)",
+  "description": "Portfolio de Michael Briquet",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -11,20 +15,31 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
+  "packageManager": "pnpm@10.6.4",
   "dependencies": {
+    "@iconify-json/mdi": "^1.2.3",
+    "@intlify/message-compiler": "^11.1.2",
     "@nuxt/eslint": "1.1.0",
     "@nuxt/fonts": "0.10.3",
-    "@nuxtjs/i18n": "9.2.1",
-    "@tailwindcss/vite": "^4.0.0",
-    "eslint": "^9.0.0",
-    "nuxt": "^3.15.4",
-    "tailwindcss": "^4.0.0",
-    "vue": "latest",
-    "vue-router": "latest"
+    "@nuxt/icon": "1.10.3",
+    "@nuxt/image": "^1.9.0",
+    "@nuxt/ui": "^3.0.0",
+    "@nuxtjs/i18n": "9.3.1",
+    "@nuxtjs/seo": "^3.0.1",
+    "@tailwindcss/vite": "^4.0.14",
+    "@types/nodemailer": "^6.4.17",
+    "@vueuse/core": "^12.8.2",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.22.0",
+    "nodemailer": "^6.10.0",
+    "nuxt": "^3.16.0",
+    "sitemap": "^8.0.0",
+    "tailwindcss": "^4.0.14",
+    "vue-sonner": "^1.3.0"
   },
-  "packageManager": "pnpm@10.5.2",
   "devDependencies": {
     "@egoist/tailwindcss-icons": "^1.9.0",
+    "sharp": "^0.33.5",
     "typescript": "^5.8.2"
   }
 }
