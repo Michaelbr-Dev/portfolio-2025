@@ -22,13 +22,13 @@
       "name": "Tailwind CSS",
       "icon": "logo:tailwindcss",
       "link": "https://tailwindcss.com/",
-      "featured": "true"
+      "featured": "false"
     },
     {
       "name": "Vuetify",
       "icon": "logo:vuetify",
       "link": "https://vuetifyjs.com/",
-      "featured": "true"
+      "featured": "false"
     },
     {
       "name": "Bootstrap",
