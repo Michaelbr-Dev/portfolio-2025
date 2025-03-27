@@ -26,7 +26,7 @@ const isActive = (path) => {
         class="z-10 flex h-[50px] justify-around gap-2 transition-all duration-300 ease-in-out sm:h-[45px] sm:hover:gap-4"
       >
         <div class="flex justify-center items-center w-full h-12 gap-1 rounded-full border-2 border-white/15 bg-zinc-900/90 px-4 transition-transform hover:scale-[1.15]">
-          <NuxtLink
+          <NuxtLinkLocale
             v-for="item in navigation"
             :key="item.to"
             :to="item.to"
@@ -43,7 +43,7 @@ const isActive = (path) => {
               :name="item.icon"
               class="size-10 font-light sm:size-6"
             />
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
       </nav>
     </header>
