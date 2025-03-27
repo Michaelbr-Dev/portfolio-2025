@@ -16,7 +16,7 @@
       "name": "React",
       "icon": "logo:react",
       "link": "https://reactjs.org/",
-      "featured": "true"
+      "featured": "false"
     },
     {
       "name": "Tailwind CSS",
@@ -78,7 +78,7 @@
       "name": "Symfony",
       "icon": "logo:symfony",
       "link": "https://symfony.com",
-      "featured": "true"
+      "featured": "false"
     },
     {
       "name": "MongoDB",
@@ -108,7 +108,7 @@
       "name": "MySQL",
       "icon": "logo:mysql",
       "link": "https://www.mysql.com/",
-      "featured": "false"
+      "featured": "true"
     }
   ],
   "tools": [
@@ -128,13 +128,13 @@
       "name": "npm",
       "icon": "logo:npm",
       "link": "https://npmjs.com",
-      "featured": "true"
+      "featured": "false"
     },
     {
       "name": "pnpm",
       "icon": "logo:pnpm",
       "link": "https://pnpm.io",
-      "featured": "true"
+      "featured": "false"
     },
     {
       "name": "Webpack",
