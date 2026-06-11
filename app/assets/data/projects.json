@@ -366,5 +366,37 @@
         "content": "<div class='space-y-6'><article><div class='mb-6'><p class='mb-4'>Nuxt 3 starter tool with many built-in features, ready for Nuxt 4 and compatible with future updates.<br>Linters are Airbnb eslint, prettiers, Typescript, and stylelint.</p><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>feature list:</h4><ul class='list-disc pl-6 space-y-2'><li>@mdi/font</li><li>@nuxt/fonts</li><li>@nuxt/icon</li><li>@nuxt/image</li><li>@nuxtjs/google-fonts</li><li>@nuxtjs/robo ts</li><li>@nuxtjs/sitemap</li><li>@nuxt/eslint</li><li>tailwindcss</li><li>nuxt-svgo</li><li>vue-tsc</li></ul></div></article></div>"
       }
     }
+  },
+	{
+  "id": "9",
+  "image": "predatorbaits.webp",
+  "url": [
+    {
+      "url": "https://predatorbaits.com/",
+      "type": "demo",
+      "name": {
+        "fr": "Voir le site",
+        "en": "View site"
+      }
+    }
+  ],
+  "technologies": {
+    "frontend": [ "HTML5", "CSS3", "JavaScript", "WordPress", "WooCommerce" ],
+    "backend": [ "PHP", "Stripe" ]
+  },
+  "tags": ["Fullstack", "E-commerce"],
+  "homepage": true,
+  "translations": {
+    "fr": {
+      "name": "Predator Baits",
+      "description": "Création d'un Site E-commerce de A à Z pour une Marque de Pêche",
+      "content": "<div class='space-y-6'><article><div class='mb-6'><p class='mb-4'>Développement d'une boutique en ligne complète pour Predator Baits, visant à présenter et vendre du matériel et des appâts de pêche (pellets, bouillettes, liquides) directement aux passionnés.</p><p class='mb-4'>L'objectif est de créer une plateforme e-commerce performante, fluide et sécurisée, permettant aux clients de découvrir le catalogue de produits et de passer commande en toute simplicité.</p><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>Objectifs du projet :</h4><ul class='list-disc pl-6 space-y-2'><li>Conception et développement d'un site e-commerce responsive et optimisé pour le parcours d'achat mobile</li><li>Gestion et présentation claire d'un catalogue de produits (variations de conditionnements, arômes, catégories)</li><li>Intégration d'un tunnel de commande sécurisé avec le système de paiement Stripe</li><li>Optimisation pour les moteurs de recherche (SEO e-commerce) et gestion simplifiée des stocks en back-office</li></ul></div></article></div>"
+    },
+    "en": {
+      "name": "Predator Baits",
+      "description": "Creation of an E-commerce Website from Scratch for a Fishing Brand",
+      "content": "<div class='space-y-6'><article><div class='mb-6'><p class='mb-4'>Development of a complete online store for Predator Baits, aimed at presenting and selling fishing gear and bait (pellets, boilies, liquids) directly to enthusiasts.</p><p class='mb-4'>The objective is to create a high-performance, fluid, and secure e-commerce platform, allowing customers to discover the product catalog and place orders with ease.</p><h4 class='text-xl font-newsreader text-zinc-400 mt-4 mb-2'>Project objectives:</h4><ul class='list-disc pl-6 space-y-2'><li>Design and development of a responsive e-commerce website optimized for the mobile shopping journey</li><li>Clear management and presentation of a product catalog (variations in packaging, flavors, categories)</li><li>Integration of a secure checkout tunnel with the Stripe payment system</li><li>Search engine optimization (E-commerce SEO) and simplified inventory management in the back-office</li></ul></div></article></div>"
+    }
   }
+}
 ]
